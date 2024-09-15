@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="color: white;">
+    <form style="background-color: rgb(12, 84, 108);">
+
+        <h1 style="color: white;">
+            <center>Application Form</center>
+        </h1>
+        <br>
+        <label for="text1">First Name:</label>
+        <input type="text" name="text1" id="text1">
+        <label for="text2">Last Name:</label>
+        <input type="text" name="text2" id="text2">
+        <br><br>
+        <label for="dateofbirth">Date Of Birth</label>
+        <input type="date" name="dateofbirth" id="dateofbirth">
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age">
+        <br><br>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email Address">
+        <br>
+        <br>
+        <label for="">Positions Available:</label>
+        <input type="radio" name="developer" id="junior">
+        <label for="junior">Junior Developer</label>
+
+        <input type="radio" name="developer" id="mid-level">
+        <label for="mid-level">Mid-level Developer</label>
+
+        <input type="radio" name="developer" id="senior">
+        <label for="senior">Senior Developer</label>
+        <br><br>
+
+        <label for="">Programming Languages:</label>
+        <input type="checkbox" name="java" id="java">
+        <label for="java">Java</label>
+
+        <input type="checkbox" name="java" id="java">
+        <label for="java">JavaScript</label>
+
+        <input type="checkbox" name="python" id="python">
+        <label for="python">Python</label>
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <label for="confirmpassword">Confirm Password:</label>
+        <input type="password" name="confirmpassword" id="confirm password">
+        <center><input type="submit" value="Submit" style="background-color: orangered;">
+            <input type="submit" value="Reset" style="background-color: orangered;">
+        </center>
+    </form>
+</body>
+
+</html>
